@@ -43,11 +43,11 @@ class AuthMock implements Auth {
 
 void main() {
 
-  Widget buildTestableWidget(Widget widget) {
+ /* Widget buildTestableWidget(Widget widget) {
     return new MediaQuery(
         data: new MediaQueryData(),
         child: new MaterialApp(home: widget)
-    );
+    );*/
   }
 
   testWidgets('empty email and password doesn\'t call sign in', (WidgetTester tester) async {
